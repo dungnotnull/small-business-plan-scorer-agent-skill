@@ -1,0 +1,66 @@
+{
+  "weighted_total": 86,
+  "band": "GO",
+  "dimensions": [
+    {
+      "name": "Market opportunity",
+      "weight": 0.2,
+      "score": 90,
+      "framework": "TAM/SAM/SOM",
+      "capped": false,
+      "cap_reason": null,
+      "rationale": "Raw 90; no cap.",
+      "evidence": []
+    },
+    {
+      "name": "Business-model coherence",
+      "weight": 0.2,
+      "score": 90,
+      "framework": "BMC/Lean Canvas",
+      "capped": false,
+      "cap_reason": null,
+      "rationale": "Raw 90; no cap.",
+      "evidence": []
+    },
+    {
+      "name": "Competitive position",
+      "weight": 0.15,
+      "score": 60,
+      "framework": "Porter's Five Forces",
+      "capped": false,
+      "cap_reason": null,
+      "rationale": "Raw 60; no cap.",
+      "evidence": []
+    },
+    {
+      "name": "Unit economics & financials",
+      "weight": 0.25,
+      "score": 88,
+      "framework": "Unit economics",
+      "capped": false,
+      "cap_reason": null,
+      "rationale": "Raw 88; no cap.",
+      "evidence": []
+    },
+    {
+      "name": "Operational readiness",
+      "weight": 0.1,
+      "score": 100,
+      "framework": "Ops + SWOT",
+      "capped": false,
+      "cap_reason": null,
+      "rationale": "Raw 100; no cap.",
+      "evidence": []
+    },
+    {
+      "name": "Risk & assumptions",
+      "weight": 0.1,
+      "score": 88,
+      "framework": "SWOT + stress-test",
+      "capped": false,
+      "cap_reason": null,
+      "rationale": "Raw 88; no cap.",
+      "evidence": []
+    }
+  ]
+}

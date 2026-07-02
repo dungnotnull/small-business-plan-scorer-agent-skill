@@ -1,0 +1,19 @@
+{
+  "tam_bottom_up": true,
+  "buyers": 12000,
+  "frequency": 3,
+  "avg_price": 4.5,
+  "som_capture_basis": true,
+  "growth_trend_dated": true,
+  "porter": {
+    "rivalry": 4,
+    "new_entrants": 3,
+    "substitutes": 3,
+    "supplier_power": 2,
+    "buyer_power": 3
+  },
+  "differentiation_gap": false,
+  "sources": [
+    {"label": "transit boardings 2025", "url": "https://example.gov/transit", "accessed": "2026-06-20"}
+  ]
+}

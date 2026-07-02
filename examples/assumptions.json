@@ -1,0 +1,10 @@
+{
+  "assumptions": [
+    {"name": "Demand size", "stated_value": "120 covers/day", "basis": "transit boardings x 1.2%", "downside_50pct": "60 covers/day", "downside_effect": "breakeven slips 4 months", "critical": false, "mitigation": "pre-sale loyalty push week 1-2"},
+    {"name": "Willingness-to-pay", "stated_value": "$4.50", "basis": "competitor menu scan", "downside_50pct": "$3.80", "downside_effect": "margin compresses 20%", "critical": false, "mitigation": "value bundle with food"},
+    {"name": "CAC", "stated_value": "$40", "basis": "comparable cafe launch", "downside_50pct": "$80", "downside_effect": "payback extends to 11 months", "critical": false, "mitigation": "referral + geo-targeted social"},
+    {"name": "Gross margin", "stated_value": "67%", "basis": "price 4.5 - var 1.5", "downside_50pct": "55%", "downside_effect": "still positive contribution", "critical": false, "mitigation": "menu mix toward high-margin items"},
+    {"name": "Runway", "stated_value": "12 months", "basis": "120k cash / 10k burn", "downside_50pct": "8 months at 1.5x burn", "downside_effect": "breakeven at month 10 cuts margin", "critical": true, "mitigation": "bridge credit line"}
+  ],
+  "combined_worst_case": {"breakeven_months": 10, "runway_months": 8, "survives": true}
+}

@@ -1,0 +1,22 @@
+{
+  "business": {"name": "Neighborhood Cafe", "idea": "office workers lack a quick specialty-coffee stop -> walk-in cafe near a transit hub"},
+  "canvas": {
+    "type": "BMC",
+    "customer_segments": ["office workers near transit hub", "weekend passers-by"],
+    "value_propositions": ["specialty coffee in under 3 minutes", "loyalty-priced daily cup"],
+    "channels": ["walk-in counter", "local delivery app"],
+    "customer_relationships": ["loyalty card", "barista rapport"],
+    "revenue_streams": ["per-cup sales", "food cross-sell"],
+    "key_resources": ["lead barista", "espresso machine", "60-seat lease"],
+    "key_activities": ["brewing", "service", "inventory"],
+    "key_partnerships": ["local roaster", "bakery supplier"],
+    "cost_structure": ["rent", "beans", "labor", "utilities"]
+  },
+  "segment": {"name": "office workers near transit hub", "geography": "1km radius, downtown", "size_basis": "transit boardings x weekday share"},
+  "pricing": {"price_per_unit": 4.5, "currency": "USD"},
+  "costs": {"variable_per_unit": 1.5, "cac": 40, "fixed_monthly": 8000},
+  "capital": {"cash": 120000, "monthly_burn": 10000, "runway_months": 12},
+  "goals": {"horizon_months": 12, "outcome": "launch"},
+  "gaps": [],
+  "field_status": {}
+}

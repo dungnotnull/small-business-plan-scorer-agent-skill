@@ -1,0 +1,3 @@
+# Optional, preferred HTTP client. The updater degrades gracefully to urllib
+# if requests is not installed, so this is not strictly required at runtime.
+requests>=2.31

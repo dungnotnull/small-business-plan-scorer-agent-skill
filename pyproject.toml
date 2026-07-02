@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "small-business-plan-scorer"
+version = "1.0.0"
+description = "Structure and score small-business plans against named strategy frameworks, stress-test assumptions, and emit an improvement roadmap with a go/no-go verdict."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [{ name = "small-business-plan-scorer contributors" }]
+keywords = ["business-plan", "feasibility", "scoring", "porter", "bmc", "tam-sam-som", "unit-economics", "sme"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+    "Typing :: Typed",
+]
+
+[project.optional-dependencies]
+http = ["requests>=2.31"]
+dev = ["pytest>=8", "pytest-cov", "ruff"]
+
+[project.scripts]
+sbps-score = "small_business_plan_scorer.scoring_engine:main"
+sbps-knowledge-update = "small_business_plan_scorer.knowledge_updater:main"
+
+[project.urls]
+Homepage = "https://github.com/your-org/small-business-plan-scorer"
+Issues = "https://github.com/your-org/small-business-plan-scorer/issues"
+
+[tool.setuptools]
+packages = ["small_business_plan_scorer"]
+
+[tool.setuptools.package-dir]
+"small_business_plan_scorer" = "tools"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = "-ra"
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501"]  # line length handled by formatter
