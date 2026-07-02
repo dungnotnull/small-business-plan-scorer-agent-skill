@@ -1,4 +1,4 @@
-# Small Business Plan Builder & Scorer (Idea 63)
+# Small Business Plan Builder & Scorer
 
 > Feasibility-scored business plans for SMEs & sole traders, grounded in
 > world-renowned strategy frameworks — Business Model Canvas, Porter's Five
